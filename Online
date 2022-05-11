@@ -1,17 +1,3 @@
-// Created by Ferris on v3rmillion <3
-
-// Settings
-var settings = {
-   webhook_url: "https://discord.com/api/webhooks/973932244152500234/6WzkAs4giPMw8mvoIkWtm4fptvQJ0eAw0lzcaZfCIjO83D3q79FGEXGBjKgzpbwci7Az", // The webhook URL
-   message: {
-       username: "My Roblox Account Status", // The webhook username
-       avatar: "", // The webhook profile picture
-       content: "A new Roblox verision is out!", // The message content
-       is_embed: true, // Is the message an embed
-       embeds: []
-   }
-};
-
 // The code, thoroughly commented for vermie users.
 var version = ""; // A variable used to store the current version (for comparing)
 
