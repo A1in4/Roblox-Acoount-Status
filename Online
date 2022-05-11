@@ -17,7 +17,7 @@ var version = ""; // A variable used to store the current version (for comparing
 
 var request = new XMLHttpRequest(); // Initialize a new XML Http Request
 request.addEventListener("load", compareVersions); // Hook the callback function
-request.open("GET", "https://api.roblox.com/users/374976114/onlinestatus/"); // Open the stream as a GET request to the API
+request.open("GET", "https://api.roblox.com/users/374976114"); // Open the stream as a GET request to the API
 request.send(); // Send the request.
 
 function compareVersions() { // The callback function
