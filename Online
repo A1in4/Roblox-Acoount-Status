@@ -1,3 +1,5 @@
+// Created by Ferris on v3rmillion <3
+
 // The code, thoroughly commented for vermie users.
 var version = ""; // A variable used to store the current version (for comparing)
 
