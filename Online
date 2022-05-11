@@ -25,7 +25,6 @@ function compareVersions() { // The callback function
        // The response from the request differs from our stored version!
        var hook = new XMLHttpRequest(); // Initialize a new XML Http Request
        hook.open("POST", settings.webhook_url); // Open the stream as a POST request to the webhook URL
-       hook.setRequestHeader("Content-Type", "application/json"); // Set the content type to application/json
 
        var hookData; // Intialize a new variable in-scope of the send function
 
